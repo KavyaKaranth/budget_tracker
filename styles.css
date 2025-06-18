@@ -1,0 +1,89 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #eaf4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+.wrapper {
+  max-width: 500px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #0b3d91;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.balance-card p {
+  font-size: 24px;
+  color: #2d6a4f;
+}
+
+.input-card input,
+.input-card select,
+.input-card button {
+  width: 100%;
+  margin: 6px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.input-card button {
+  background-color: #0b3d91;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.input-card button:hover {
+  background-color: #084298;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 6px 0;
+  padding: 10px;
+  border-left: 5px solid;
+  border-radius: 5px;
+  position: relative;
+}
+
+.income {
+  border-left-color: #38b000;
+  background-color: #eaffea;
+}
+
+.expense {
+  border-left-color: #d00000;
+  background-color: #ffe5e5;
+}
+
+.delete-btn {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background: none;
+  border: none;
+  color: #888;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  color: #e60000;
+}
